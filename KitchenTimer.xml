@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/andrew/hardware/KitchenTimer/KitchenTimer.kicad_sch</source>
+    <date>Wed 17 Apr 2024 09:52:45 BST</date>
+    <tool>Eeschema 7.0.11-7.0.11~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Coffee timer</title>
+        <company/>
+        <rev>A</rev>
+        <date/>
+        <source>KitchenTimer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>project_footprints:Trupower-CR2032-PCB-mount</footprint>
+      <libsource lib="" part="Battery_Cell_1" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28aebe92-ce09-4581-b446-95b97dfc289c</tstamps>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>project_footprints:Buzzer_Murata_PKLCS1212E4001-R1</footprint>
+      <datasheet>https://docs.rs-online.com/1185/0900766b80ef2b98.pdf</datasheet>
+      <fields>
+        <field name="Fit ">Y</field>
+        <field name="Manufacturer">Murata </field>
+        <field name="PartNo">PKLCS1212E2000</field>
+        <field name="budget">0.76</field>
+        <field name="dis_rs">167-3964 </field>
+        <field name="or equivalent">N</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <property name="dis_rs" value="167-3964 "/>
+      <property name="Manufacturer" value="Murata "/>
+      <property name="budget" value="0.76"/>
+      <property name="or equivalent" value="N"/>
+      <property name="PartNo" value="PKLCS1212E2000"/>
+      <property name="Fit " value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Buzzer, polarized"/>
+      <property name="ki_keywords" value="quartz resonator ceramic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>389e3635-8a50-48ef-ab16-5a9a8233767d</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Dielectric">MLCC</field>
+        <field name="Fit">Y</field>
+        <field name="Fit ">Y</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="PartNo">C0603C104K4RACTU</field>
+        <field name="Voltage">50V</field>
+        <field name="budget">0.05</field>
+        <field name="dis_rs">173-2202</field>
+        <field name="or equivalent">Y</field>
+      </fields>
+      <libsource lib="base-rescue" part="C-Device" description=""/>
+      <property name="Voltage" value="50V"/>
+      <property name="Dielectric" value="MLCC"/>
+      <property name="Fit" value="Y"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="PartNo" value="C0603C104K4RACTU"/>
+      <property name="dis_rs" value="173-2202"/>
+      <property name="or equivalent" value="Y"/>
+      <property name="budget" value="0.05"/>
+      <property name="Fit " value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a232e251-b7b1-413f-ab9a-39c22ec819ef</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c70c9c2f-7264-426a-867e-3e89af1dfc1f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED_Filled</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode, filled shape"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0685ceec-5a14-461e-9028-4c95b914b37f</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8c1f9b1-828c-48f8-a3e2-37473f8a9eb6</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9097bc5d-e037-4c41-89c5-43282024634b</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>project_footprints:LocationHole_1mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f33ee29-b446-41c7-a276-7e63bf454606</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>project_footprints:LocationHole_1mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>614c34dd-3921-495b-bcd1-2235330327c5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ab4f2ee-6a3b-4f4e-be03-68e37d6009ff</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>164e0d86-f709-4a0f-a471-3dacddd592d5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Fit">Y</field>
+        <field name="Fit ">Y</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="PartNo">CRG0603F4K7</field>
+        <field name="budget">0.003</field>
+        <field name="dis_rs">213-2367</field>
+        <field name="or equivalent">Y</field>
+      </fields>
+      <libsource lib="base-rescue" part="R-Device" description=""/>
+      <property name="Manufacturer" value="TE Connectivity"/>
+      <property name="Fit" value="Y"/>
+      <property name="PartNo" value="CRG0603F4K7"/>
+      <property name="dis_rs" value="213-2367"/>
+      <property name="budget" value="0.003"/>
+      <property name="or equivalent" value="Y"/>
+      <property name="Fit " value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07b531cb-4b51-496f-8f4b-9dd186779f12</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>project_footprints:SW_TS06-667-50-BK-100-G-SMT-TR</footprint>
+      <libsource lib="" part="SW_Push_1" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7e0eee3-0c36-468b-8fc1-f8eadc72ee58</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>project_footprints:SW_TS06-667-50-BK-100-G-SMT-TR</footprint>
+      <libsource lib="" part="SW_Push_1" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f4703ac-05b8-48c0-9634-c5fc93147311</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G041J6Mx</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32g041j6.pdf</datasheet>
+      <libsource lib="MCU_ST_STM32G0" part="STM32G041J6Mx" description="STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 8KB RAM, 64 MHz, 1.7-3.6V, 6 GPIO, SO8N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="KitchenTimer.kicad_sch"/>
+      <property name="ki_description" value="STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 8KB RAM, 64 MHz, 1.7-3.6V, 6 GPIO, SO8N"/>
+      <property name="ki_keywords" value="Arm Cortex-M0+ STM32G0 STM32G0x1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f05255fa-dafc-4a65-bd2f-e6b4f7969173</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Battery_Cell_1">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT1</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint">project_footprints:Trupower-CR2032-PCB-mount</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SW_Push_1">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint">project_footprints:SW_TS06-667-50-BK-100-G-SMT-TR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Filled">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP1</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="power_in"/>
+        <pin num="2" name="B" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32G0" part="STM32G041J6Mx">
+      <description>STMicroelectronics Arm Cortex-M0+ MCU, 32KB flash, 8KB RAM, 64 MHz, 1.7-3.6V, 6 GPIO, SO8N</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32g041j6.pdf</docs>
+      <footprints>
+        <fp>SO*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32G041J6Mx</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32g041j6.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC14/PB7/PB8/PB9" type="bidirectional"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="PF2/PA0/PA1/PA2" type="bidirectional"/>
+        <pin num="5" name="PB0/PB1/PA8/PA11/PA9" type="bidirectional"/>
+        <pin num="6" name="PA12/PA10" type="bidirectional"/>
+        <pin num="7" name="PA13" type="bidirectional"/>
+        <pin num="8" name="PA14/PA15/PB5/PB6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="base-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">base-rescue_C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="base-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">base-rescue_R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_ST_STM32G0">
+      <uri>/usr/share/kicad/symbols//MCU_ST_STM32G0.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V0">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="power_out"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="power_out"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="power_out"/>
+      <node ref="BZ1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(BZ1--)">
+      <node ref="BZ1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PB0/PB1/PA8/PA11/PA9" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PA12/PA10" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(U1-PC14{slash}PB7{slash}PB8{slash}PB9)">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PC14/PB7/PB8/PB9" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(U1-PF2{slash}PA0{slash}PA1{slash}PA2)">
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PF2/PA0/PA1/PA2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="SWCLK">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PA14/PA15/PB5/PB6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="SWDIO">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
